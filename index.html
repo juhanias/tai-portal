@@ -77,13 +77,18 @@
         background: none;
         border: none;
     }
+
+    .cards {
+        display: flex;
+        align-items: center;
+    }
 </style>
 <body class="d-flex h-100 text-center text-bg-dark">
     <div class="gradient-background">
             <div class="px-3 padding-top">
                 <h1>Web Portal</h1>
-                <div class="card cover-container w-100 h-100 p-3 mx-auto flex hide-everything">
-                    <div class="card" style="width: 18rem;">
+                <div class="cards card cover-container w-100 h-100 p-3 mx-auto flex hide-everything">
+                    <div class="card flex-row" style="width: 18rem;">
                         <img class="card-img-top p-3" src="https://cdn.cookielaw.org/logos/80df487c-62ab-4978-b310-891309e09de5/f029c77f-83f9-41b6-88e6-3f48d78cc40d/84a83c4a-1e45-42fd-81d5-3d7e5337d692/wilma_logo.png" alt="Card image cap" style="width: 150px">
                         <div class="card-body">
                           <h5 class="card-title">Wilma</h5>
@@ -91,7 +96,11 @@
                           <a href="https://turku.inschool.fi" target="_blank" class="btn btn-primary">Mene</a>
                         </div>
                       </div>
+                      <div class="card" style="width: 18rem;">
+                        <iframe width="360" height="250" style="border-radius: 10px;" src="https://opas.matka.fi/haku?&lang=fi" title="Digitransit UI embedded search" scrolling="no"></iframe>
                     </div>
+'
+                </div>
             </div>
             <footer class="mt-auto text-white-50"></footer>
     </div>
