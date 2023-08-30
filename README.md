@@ -1,2 +1,2 @@
 # tai-portal
-Unofficial portal for TAI services
+Portal for random stuff
